@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.UpdateActivity">
+
+    <EditText
+        android:id="@+id/et_update_nim"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NIM"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/et_update_nama"
+        app:layout_constraintEnd_toEndOf="@+id/et_update_nama"
+        app:layout_constraintStart_toStartOf="@+id/et_update_nama" />
+
+    <EditText
+        android:id="@+id/et_update_nama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/et_update_jurusan"
+        app:layout_constraintEnd_toEndOf="@+id/et_update_jurusan"
+        app:layout_constraintStart_toStartOf="@+id/et_update_jurusan" />
+
+    <EditText
+        android:id="@+id/et_update_jurusan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Jurusan"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/et_update_nohp"
+        app:layout_constraintEnd_toEndOf="@+id/et_update_nohp"
+        app:layout_constraintStart_toStartOf="@+id/et_update_nohp" />
+
+    <EditText
+        android:id="@+id/et_update_nohp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Nomer Handphone"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btn_update_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_update_submit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Update"
+        android:textColor="@color/cardview_light_background"
+        android:background="@drawable/btn_update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/et_update_nohp"
+        app:layout_constraintStart_toStartOf="@+id/et_update_nohp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

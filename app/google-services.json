@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1099382044804",
+    "firebase_url": "https://findme-68674.firebaseio.com",
+    "project_id": "findme-68674",
+    "storage_bucket": "findme-68674.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099382044804:android:b4151dee124c6b4de6ead1",
+        "android_client_info": {
+          "package_name": "com.findme.tugaspam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099382044804-229iuame7db5hj1f0hcvsf4h6n0io7p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGy0ox6CsoMytiMFtH40KRiVYfFieRQ7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099382044804-229iuame7db5hj1f0hcvsf4h6n0io7p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
